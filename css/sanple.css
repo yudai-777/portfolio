@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&family=Kanit:wght@600&family=Mea+Culpa&display=swap');
+body {
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+.worp{
+    max-width: 100%;
+    margin: 20px;
+    padding: 0;
+    background: #FFFF9D;
+    position: relative;
+    min-height: 100vh;
+}
+nav{
+    border-bottom: 1px solid #ccc;
+}
+nav ul{
+    display: table;
+    margin:  0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 24px;
+}
+nav ul li{
+    display: table-cell;
+    min-width: 100px;
+    border-right: 1px solid #ccc;
+    height: 50px
+}
+nav ul li:first-child{
+    border-left: 1px solid #ccc;
+}
+nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #aaa;
+}
+nav ul li a:hover{
+    background-color:#ffdbff;
+    border-bottom: 0px solid #FFDBFF;
+}
+nav ul li.current{
+    font-weight: bold;
+}
+nav ul li.current a{
+    border-bottom: 5px solid #00B0F0;
+    color: #00B0F0;
+}
+img{
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+/* 友貞作成分 */
+.question{
+    background: #fceff2;
+    box-shadow: #fceff2 0 0 10px 10px;
+    margin: 60px;
+    font-size: 100%;
+    padding: 20px;
+}
+.clearfix:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.align-center{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Kaisei Opti', serif;
+}
+html,
+  body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+.box{
+    width: 100%;
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+@media screen and (max-width: 576px) {
+    .box {
+      height: 250px;
+    }
+}
+.bg-ttl {
+    color: #fff;
+    background-color: white;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+h1{
+    font-family: 'Kaisei Opti', serif;
+}
